@@ -56,13 +56,41 @@ html,body{
 #text{
     grid-column: 1/5;
     background-color: rgb(247, 104, 104);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+
+#content-text{
+    height: 90%;
+    width: 40%;
+    background-color: rgb(191, 191, 191);
+    border-radius: 2cqw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content-text p{
+    font-size: 2vw;
 }
 
 #jobs{
     grid-column: 1/5;
     background-color: rgb(188, 255, 43);
+    display: flex;
+    padding: 2%;
+}
 
+.job{
+    height: 100%;
+    width: 25%;
+    margin: 0% 1% 2% 1%;
+    background-color: rgb(255, 255, 255);
+}
+.job:hover{
+    border: 3px solid black;
 }
 
 #user-details{
